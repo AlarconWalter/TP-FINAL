@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.contenedor-header{
+    background-color: #76B900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+header{
+    margin-bottom: 40px;
+}
+/* logo */
+.logo{
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+.logo img{
+    height: 50px;
+    width: auto;
+}
+/* navegación */
+.nav{
+    display: flex;
+    gap: 20px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.nav a:hover{
+    background-color: white;
+    color: #76B900; 
+    border-radius: 5px;
+}
+/* LOGEARSE */
+h1{
+    text-align: center;
+    color: #444;
+    margin-bottom: 20px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+label{
+    margin: 10px 0 5px 0;
+    font-weight: bold;
+    color: #333;
+}
+input[type="text"], input[type="email"], input[type="password"], select, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+input[type="checkbox"]{
+    margin-right: 10px;
+}
+.boton{
+    background-color: #76B900;
+    margin: 0 auto;
+    margin-top: 40px;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+.boton:hover{
+    background-color: #5a8e00;
+}
+/* FOOTER */
+.footer{
+    background-color: #76B900;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+}
+.footer a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    transition: color 0.3s, font-size 0.3s;
+}
+.footer a:hover{
+    color: #333;
+    font-size: 24px;
+}
+.footer p{
+    margin: 10px 0;
+}
+.arriba{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    background-color: #444;
+}
+.arriba p{
+    margin: 10px 20px;
+}
+.abajo{
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    background-color: #333;
+}
+.abajo i{
+    margin: 0 20px;
+    font-size: 20px;
+    transition: transform 0.3s;
+    color: #fff;
+}
+.abajo i:hover{
+    transform: scale(1.2);
+}

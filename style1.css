@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #333;
+}
+.contenedor-header{
+    background-color: #76B900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(118, 185, 0, 0.6);
+}
+/* LOGO */
+.logo{
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+.logo img{
+    height: 50px;
+    width: auto;
+}
+/* NAVEGACION */
+.nav{
+    display: flex;
+    gap: 20px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.nav a:hover{
+    background-color: white;
+    color: #76B900; 
+    border-radius: 5px;
+}
+/* PRODUCTOS DESTACABLES */
+.productos-destacables{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.productos-destacables h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 40px;
+}
+.productos-destacables h1:hover{
+    color: #76B900;
+}
+.imagen1{
+    height: 460px;
+    width: 700px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.imagen2{
+    height: 460px;
+    width: 700px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.imagen3{
+    height: 460px;
+    width: 700px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.imagen1 img{
+    height: 320px;
+    width: 460px;
+}
+.imagen2 img{
+    height: 320px;
+    width: 460px;
+}
+.imagen3 img{
+    height: 320px;
+    width: 460px;
+}
+.productos-destacables p{
+    margin: 20px;
+}
+.productos-destacables p:hover{
+    color: #76B900;
+}
+/* EQUIPO */
+.equipo{
+    display: flex;
+    flex-direction: column;
+}
+.equipo h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.equipo h2:hover{
+    color: #76B900;
+}
+.miembro{
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s;
+    margin: 20px;
+}
+.miembro img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    max-width: 150px;
+    margin: 0 auto 15px;
+}
+.miembro h3{
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+.miembro p{
+    color: #777;
+    font-size: 16px;
+}
+.miembro:hover{
+    transform: translateY(-15px);
+}
+/* NOTICIAS */
+.noticias{
+    text-align: center;
+}
+.noticias h1{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #76B900;
+    font-size: 40px;
+}
+.contenedor-noti{
+    display: flex;
+    flex-direction: column;
+}
+.imagenes{
+    display: flex;
+    justify-content: center;
+}
+.imagenes img{
+    width: 280px;
+    height: 300px;
+    transition: transform 0.3s;
+}
+.noticias p{
+    padding: 10px;
+    font-size: 25px;
+    color: #76B900;
+}
+.noticia-noticia2 img, .noticia-noticia3 img{
+    height: 380px;
+    width: 780px;
+}
+.noticias img:hover{
+    transform: scale(1.1);
+    transition: transform 0.8s;
+}
+.noticia-noticia1, .noticia-noticia2, .noticia-noticia3{
+    margin: 40px;
+}
+/* PUBLICIDAD */
+.publicidad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.publicidad h1{
+    color: #76B900;
+    margin: 40px;
+}
+.publicidad h1:hover{
+    font-size: 40px;
+    transition: 0.3s;
+}
+.contenedor-cajas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+.contenedor-cajas img{
+    height: auto;
+    width: 300px;
+}
+.cajas{
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #76B900;
+}
+.cajas:hover{
+    transform: scale(1.05);
+}
+/* FOOTER */
+.footer{
+    background-color: #76B900;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+    margin-top: 140px;
+}
+.footer a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    transition: color 0.3s, font-size 0.3s;
+}
+.footer a:hover{
+    color: #333;
+    font-size: 24px;
+}
+.footer p{
+    margin: 10px 0;
+}
+.arriba{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    background-color: #444;
+}
+.arriba p{
+    margin: 10px 20px;
+}
+.abajo{
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    background-color: #333;
+}
+.abajo i{
+    margin: 0 20px;
+    font-size: 20px;
+    transition: transform 0.3s;
+    color: #fff;
+}
+.abajo i:hover{
+    transform: scale(1.2);
+}

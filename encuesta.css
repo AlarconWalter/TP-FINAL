@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #333;
+}
+.contenedor-header{
+    background-color: #76B900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(118, 185, 0, 0.6);
+}
+/* LOGO */
+.logo{
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+.logo img{
+    height: 50px;
+    width: auto;
+}
+/* NAVEGACION */
+.nav{
+    display: flex;
+    gap: 20px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.nav a:hover{
+    background-color: white;
+    color: #76B900; 
+    border-radius: 5px;
+}
+/* SORTEO */
+h1{
+    text-align: center;
+    color: #444;
+    margin-bottom: 20px;
+}
+h1:hover{
+    color: #76B900;
+    font-size: 40px;
+}
+.ganadores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+table{
+    width: 80%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+p{
+    font-size: 1.5em;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #76B900;
+}
+thead{
+    background-color: #76B900;
+    color: white;
+}
+th, td{
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+th{
+    background-color: #76B900;
+    color: white;
+}
+/* FOOTER */
+.footer{
+    background-color: #76B900;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+    margin-top: 140px;
+}
+.footer a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    transition: color 0.3s, font-size 0.3s;
+}
+.footer a:hover{
+    color: #333;
+    font-size: 24px;
+}
+.footer p{
+    margin: 10px 0;
+}
+.arriba{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    background-color: #444;
+}
+.arriba p{
+    margin: 10px 20px;
+}
+.abajo{
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    background-color: #333;
+}
+.abajo i{
+    margin: 0 20px;
+    font-size: 20px;
+    transition: transform 0.3s;
+    color: #fff;
+}
+.abajo i:hover{
+    transform: scale(1.2);
+}

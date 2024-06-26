@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta itemprop="location" content="Santa Clara, California, Estados Unidos.">
+    <meta name="Author" content="Alarcon Walter">
+    <meta name="keywords" content="NVIDIA, ia, tarjetas graficas, tecnologia, computadora">
+    <title>Registro</title>
+    <link rel="stylesheet" href="style_reg.css">
+</head>
+<body>
+    <header class="contenedor-header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="IMG/logo_de_nvidia-removebg-preview.png" alt="logo-nvidia">
+            </a>
+        </div>
+        <nav class="nav">
+            <a href="index.html">INICIO</a>
+            <a href="">SOPORTE</a>
+            <a href="encuesta.html">ENCUESTAS</a>
+            <a href="">PRODUCTOS</a>
+            <a href="login.html">LOGEARSE</a>
+            <a href="register.html">REGISTRO</a>
+        </nav>
+    </header>
+    <main>
+        <section class="formulario">
+            <h1>Formulario de Registro</h1>
+            <form method="get" action="#">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" placeholder="NOMBRE" required>
+
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido" id="apellido" placeholder="APELLIDO" required>
+
+                <label for="genero">Género:</label>
+                <select name="genero" id="generos" required>
+                    <option>Hombre</option>
+                    <option>Mujer</option>
+                    <option>Otro</option>
+                </select>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="ejemplo@gmail.com" required>
+
+                <label for="contra">Contraseña:</label>
+                <input type="password" name="contra" id="contra" required>
+
+                <label for="contra2">Repetir Contraseña:</label>
+                <input type="password" name="contra2" id="contra2" required>
+
+                <label for="comentarios">Comentarios:</label>
+                <textarea name="comentarios" id="comentarios" rows="4" required>Deja Tu Comentario</textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="arriba">
+            <p>&copy; 2024 NVIDIA Corporation</p>
+            <p><a href="index.html">Inicio</a></p>
+            <p><a href="#">Política de Privacidad</a></p>
+            <p>Santa Clara, California</p>
+        </div>
+        <div class="abajo">
+            <i class="fab fa-facebook"> NVIDIA</i>
+            <i class="fab fa-instagram"> @nvidia.official</i>
+            <i class="fab fa-twitter"> nvidia.oficial</i>
+        </div>
+    </footer>
+</body>
+</html>
