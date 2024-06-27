@@ -9,6 +9,8 @@ body{
     color: #333;
 }
 .contenedor-header{
+    height: 80px;
+    width: 100%;
     background-color: #76B900;
     display: flex;
     justify-content: space-between;
@@ -55,10 +57,11 @@ h1:hover{
     font-size: 40px;
 }
 .ganadores{
+    height: 1000px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    margin-top: 40px;
 }
 table{
     width: 80%;
@@ -92,7 +95,6 @@ th{
     padding: 20px 0;
     color: #fff;
     text-align: center;
-    margin-top: 140px;
 }
 .footer a {
     text-decoration: none;
